@@ -43,41 +43,40 @@ import { Check, Target, TrendingUp, Clock, Users, BookOpen, Shield, ArrowRight, 
 import ebookCover from '@/assets/ebook-cover.png';
 
 const LandingPage = () => {
-  // Placeholder texts - você pode substituir depois
   const features = [
-    "Planejamento estratégico para os próximos 90 dias",
-    "Metodologia prática para líderes e donos de empresas",
-    "Metas claras e vendas previsíveis",
-    "Controle total do seu negócio",
-    "Templates e ferramentas prontas para usar",
-    "Bônus exclusivos para implementação imediata",
+    "Metodologia de ciclos trimestrais: Organização, Ajuste e Consolidação",
+    "Ferramenta de decomposição de metas financeiras, comerciais e operacionais",
+    "Sistema de Triplos Planos A: Ideal, Realista e Defensivo",
+    "5 indicadores estratégicos para evitar a montanha-russa de vendas",
+    "Checklists para transformar metas em rotina diária inegociável",
+    "Blindagem contra imprevistos de 2026: ano político, Copa e feriados",
   ];
 
   const targetAudience = [
     {
       icon: <Target />,
-      title: "Empreendedores",
-      description: "Que querem dominar 2026 com um plano de ação claro e eficiente"
+      title: "Líderes que querem domínio trimestral",
+      description: "Controle o ano dominando os primeiros 90 dias em três fases: Organização, Ajuste e Consolidação"
     },
     {
       icon: <TrendingUp />,
-      title: "Líderes de Equipe",
-      description: "Que desejam criar metas previsíveis e escalar seus resultados"
+      title: "Gestores que querem metas matemáticas",
+      description: "Transforme desejos em números reais com metas financeiras, comerciais e operacionais"
     },
     {
       icon: <Users />,
-      title: "Donos de Empresas",
-      description: "Que buscam controle total e crescimento sustentável do negócio"
+      title: "Empresários preparados para imprevistos",
+      description: "Tenha 3 cenários prontos: Plano Ideal, Realista e Defensivo para 2026"
     },
   ];
 
   const benefits = [
-    "Clareza total sobre suas metas e objetivos",
-    "Vendas previsíveis mês a mês",
-    "Controle absoluto do seu negócio",
-    "Plano de ação para os próximos 90 dias",
-    "Ferramentas práticas de gestão",
-    "Metodologia testada e validada",
+    "Perder o foco tentando controlar o ano inteiro de uma vez",
+    "Criar metas baseadas apenas em esperança sem dados reais",
+    "Sofrer com a montanha-russa de vendas sem indicadores",
+    "Ficar refém de imprevistos sem planos de contingência",
+    "Ter um planejamento no papel que nunca é executado",
+    "Começar 2026 sem uma rotina diária estruturada",
   ];
 
   return (
@@ -86,7 +85,7 @@ const LandingPage = () => {
       
       {/* Top Bar */}
       <TopBar>
-        📘 Exclusivo para Líderes que desejam <span>dominar 2026</span> com metas claras e vendas previsíveis!
+        📘 O método prático para líderes criarem <span>metas claras, vendas previsíveis e controle total</span> — mesmo em um ano desafiador!
       </TopBar>
 
       {/* Hero Section */}
@@ -94,12 +93,12 @@ const LandingPage = () => {
         <Container>
           <HeroContent>
             <HeroText>
-              <Badge>🔥 Método Comprovado</Badge>
+              <Badge>🔥 Metodologia de Ciclos Trimestrais</Badge>
               <Title>
                 <span>90 Dias</span> Para Dominar 2026
               </Title>
               <Subtitle>
-                O método prático para <strong>líderes e donos de empresas de serviços</strong> criarem metas claras, vendas previsíveis e controle total — mesmo em um ano desafiador.
+                Domine o ano dominando os primeiros 90 dias. O método para <strong>líderes e donos de empresas de serviços</strong> transformarem desejo em matemática com metas financeiras, comerciais e operacionais — blindados contra os imprevistos de 2026.
               </Subtitle>
               
               <FeaturesList>
@@ -129,7 +128,7 @@ const LandingPage = () => {
       <TargetSection>
         <Container>
           <SectionTitle>
-            Este ebook é <span>exclusivo</span> para você que:
+            Para quem é o <span>90 Dias Para Dominar 2026</span>?
           </SectionTitle>
           
           <TargetGrid>
@@ -148,7 +147,7 @@ const LandingPage = () => {
       <BenefitsSection>
         <Container>
           <SectionTitle>
-            Com este ebook você <span>nunca mais</span> vai:
+            Com este eBook você <span>nunca mais</span> vai:
           </SectionTitle>
           
           <BenefitsList>
