@@ -215,6 +215,28 @@ export const HeroImage = styled.div`
     height: auto;
     filter: drop-shadow(0 20px 50px rgba(0, 149, 255, 0.3));
   }
+  
+  @media (max-width: ${theme.breakpoints.mobile}) {
+    display: none;
+  }
+`;
+
+export const HeroImageMobile = styled.div`
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 30px;
+  animation: ${float} 4s ease-in-out infinite;
+  
+  img {
+    max-width: 280px;
+    height: auto;
+    filter: drop-shadow(0 20px 50px rgba(0, 149, 255, 0.3));
+  }
+  
+  @media (max-width: ${theme.breakpoints.mobile}) {
+    display: flex;
+  }
 `;
 
 // CTA Button
