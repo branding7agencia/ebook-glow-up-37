@@ -226,14 +226,11 @@ export const HeroImageMobile = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0;
-  border: 2px solid red;
   animation: ${float} 4s ease-in-out infinite;
   
   img {
     max-width: 280px;
     height: auto;
-    max-height: 60%;
-    transform: scaleY(0.6);
     filter: drop-shadow(0 20px 50px rgba(0, 149, 255, 0.3));
   }
   
