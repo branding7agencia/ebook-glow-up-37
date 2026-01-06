@@ -94,7 +94,7 @@ const LandingPage = () => {
         <Container>
           <HeroContent>
             <HeroText>
-              <Badge>🔥 Metodologia de Ciclos Trimestrais</Badge>
+              
               
               <HeroImageMobile>
                 <img src={ebookCover} alt="Ebook 90 Dias Para Dominar 2026 - Branding7" />
