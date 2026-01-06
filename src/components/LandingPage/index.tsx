@@ -5,6 +5,7 @@ import {
   HeroContent,
   HeroText,
   HeroImage,
+  HeroImageMobile,
   Badge,
   Title,
   Subtitle,
@@ -94,6 +95,11 @@ const LandingPage = () => {
           <HeroContent>
             <HeroText>
               <Badge>🔥 Metodologia de Ciclos Trimestrais</Badge>
+              
+              <HeroImageMobile>
+                <img src={ebookCover} alt="Ebook 90 Dias Para Dominar 2026 - Branding7" />
+              </HeroImageMobile>
+              
               <Title>
                 <span>90 Dias</span> Para Dominar 2026
               </Title>
