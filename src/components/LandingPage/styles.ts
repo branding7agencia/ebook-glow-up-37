@@ -225,7 +225,7 @@ export const HeroImageMobile = styled.div`
   display: none;
   justify-content: center;
   align-items: center;
-  margin: 40px 0 40px;
+  margin: 0;
   animation: ${float} 4s ease-in-out infinite;
   
   img {
